@@ -1,25 +1,20 @@
 import logo from './logo.svg';
+import AMS from './components/ams/Ams'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <AMS />
     </div>
   );
+
+}
+
+function First() {
+  return (
+    <p>Hello world</p>
+  )
 }
 
 export default App;
